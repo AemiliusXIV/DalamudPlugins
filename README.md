@@ -7,7 +7,7 @@ Custom plugin repository for [Dalamud](https://github.com/goatcorp/Dalamud).
 In-game, go to **ESC → Dalamud Settings → Experimental → Custom Plugin Repositories** and add:
 
 ```
-https://aemiliusxiv.github.io/DalamudPlugins/repo.json
+https://raw.githubusercontent.com/AemiliusXIV/DalamudPlugins/main/repo.json
 ```
 
 All plugins listed below will then appear in your Plugin Installer and update automatically.
