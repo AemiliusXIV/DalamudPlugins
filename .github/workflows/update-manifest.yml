@@ -1,0 +1,62 @@
+name: Update manifest
+
+on:
+  schedule:
+    - cron: '17 * * * *'  # hourly, offset to spread runner load
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync versions from upstream releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          while read -r entry; do
+            name=$(echo "$entry" | jq -r '.InternalName')
+            owner=$(echo "$entry" | jq -r '.Owner')
+            repo=$(echo "$entry" | jq -r '.Repo')
+
+            latest=$(gh api "repos/$owner/$repo/releases/latest" --jq '.tag_name' 2>/dev/null || echo "")
+            if [ -z "$latest" ]; then
+              echo "No releases yet for $owner/$repo — skipping $name"
+              continue
+            fi
+
+            current=$(jq -r --arg n "$name" '.[] | select(.InternalName==$n) | .AssemblyVersion' repo.json)
+
+            if [ -z "$current" ]; then
+              echo "WARNING: $name listed in plugins.json but missing from repo.json — skipping"
+              continue
+            fi
+
+            if [ "$latest" != "$current" ]; then
+              echo "Updating $name: $current -> $latest"
+              jq --arg n "$name" --arg v "$latest" \
+                '(.[] | select(.InternalName==$n) | .AssemblyVersion) = $v' \
+                repo.json > repo.json.tmp
+              mv repo.json.tmp repo.json
+            else
+              echo "$name up to date ($current)"
+            fi
+          done < <(jq -c '.[]' plugins.json)
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet repo.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo.json
+          git commit -m "Sync plugin versions from upstream releases"
+          git push
