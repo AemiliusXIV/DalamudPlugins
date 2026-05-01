@@ -38,6 +38,7 @@ jobs:
               continue
             fi
 
+            # Sync AssemblyVersion
             if [ "$latest" != "$current" ]; then
               echo "Updating $name: $current -> $latest"
               jq --arg n "$name" --arg v "$latest" \
@@ -47,6 +48,27 @@ jobs:
             else
               echo "$name up to date ($current)"
             fi
+
+            # Sync DalamudApiLevel from the manifest inside the release zip
+            zip_url="https://github.com/$owner/$repo/releases/latest/download/latest.zip"
+            if curl -fsSL "$zip_url" -o plugin.zip 2>/dev/null; then
+              zip_api=$(unzip -p plugin.zip "${name}.json" 2>/dev/null | jq '.DalamudApiLevel // empty' 2>/dev/null || echo "")
+              rm -f plugin.zip
+              if [ -n "$zip_api" ]; then
+                repo_api=$(jq --arg n "$name" '.[] | select(.InternalName==$n) | .DalamudApiLevel' repo.json)
+                if [ "$zip_api" != "$repo_api" ]; then
+                  echo "Updating DalamudApiLevel for $name: $repo_api -> $zip_api"
+                  jq --arg n "$name" --argjson v "$zip_api" \
+                    '(.[] | select(.InternalName==$n) | .DalamudApiLevel) = $v' \
+                    repo.json > repo.json.tmp
+                  mv repo.json.tmp repo.json
+                fi
+              fi
+            else
+              rm -f plugin.zip
+              echo "Could not download zip for $name — DalamudApiLevel not synced"
+            fi
+
           done < <(jq -c '.[]' plugins.json)
 
       - name: Commit and push if changed
