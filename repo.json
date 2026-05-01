@@ -1,23 +1,17 @@
 [
   {
     "Author": "AemiliusXIV",
-    "Name": "Orchestrion 2",
+    "Name": "Orchestrion Aria",
     "Punchline": "BGM replacement with local audio support",
     "Description": "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird & Meli: https://github.com/perchbirdd/OrchestrionPlugin",
-    "Changelog": "Updated for FFXIV 7.5 / Dalamud API 13. Local songs now respect the game's focus setting (mutes when game window is unfocused, matching game BGM behaviour).",
-    "Tags": [
-      "music",
-      "bgm",
-      "audio"
-    ],
-    "CategoryTags": [
-      "Audio"
-    ],
-    "InternalName": "orchestrion2",
-    "AssemblyVersion": "2.2.0.18",
+    "Changelog": "Renamed to Orchestrion Aria. Import your settings and song replacements from the original Orchestrion plugin via the Settings window.",
+    "Tags": ["music", "bgm", "audio"],
+    "CategoryTags": ["Audio"],
+    "InternalName": "orchestrionaria",
+    "AssemblyVersion": "2.2.0.19",
     "RepoUrl": "https://github.com/AemiliusXIV/OrchestrionPlugin",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 13,
+    "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip"
