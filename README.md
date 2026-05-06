@@ -18,6 +18,7 @@ All plugins listed below will then appear in your Plugin Installer and update au
 
 | Plugin | Description |
 |--------|-------------|
+| [Party Sorter](https://github.com/AemiliusXIV/PartySorter) | Drag and drop party members and auto-apply saved configurations. |
 | [Orchestrion Aria](https://github.com/AemiliusXIV/OrchestrionPlugin) | BGM replacement with local MP3/WAV audio support. Fork of [perchbirdd/OrchestrionPlugin](https://github.com/perchbirdd/OrchestrionPlugin). |
 
 ## Legal
