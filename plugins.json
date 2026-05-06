@@ -4,4 +4,10 @@
     "Owner": "AemiliusXIV",
     "Repo": "OrchestrionPlugin"
   }
+,
+  {
+    "InternalName": "PartySorter",
+    "Owner": "AemiliusXIV",
+    "Repo": "PartySorter"
+  }
 ]
