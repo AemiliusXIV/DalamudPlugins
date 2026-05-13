@@ -14,7 +14,7 @@
       "Audio"
     ],
     "InternalName": "orchestrionaria",
-    "AssemblyVersion": "2.2.0.20",
+    "AssemblyVersion": "2.2.0.21",
     "RepoUrl": "https://github.com/AemiliusXIV/OrchestrionPlugin",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
