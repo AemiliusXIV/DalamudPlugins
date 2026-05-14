@@ -4,7 +4,7 @@
     "Name": "Orchestrion Aria",
     "Punchline": "BGM replacement with local audio support",
     "Description": "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird & Meli: https://github.com/perchbirdd/OrchestrionPlugin",
-    "Changelog": "Renamed to Orchestrion Aria. Import your settings and song replacements from the original Orchestrion plugin via the Settings window.",
+    "Changelog": "- Local Library: audio files in the plugin folder no longer show their internal file path.\n- Import from Orchestrion: import is now explicit — no data is copied automatically on first launch. A notification will appear if a previous config is detected.\n- Import from Orchestrion: the confirmation popup now lets you choose which categories to import (general settings, song replacements, playlists) via an Edit button. All selected by default.\n- Import from Orchestrion: shows a success summary after importing, and is permanently hidden on subsequent sessions once complete.",
     "Tags": [
       "music",
       "bgm",
