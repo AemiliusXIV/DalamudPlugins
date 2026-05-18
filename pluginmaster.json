@@ -1,50 +1,50 @@
 [
-    {
-        "Author":  "AemiliusXIV",
-        "Name":  "Orchestrion Aria",
-        "Punchline":  "BGM replacement with local audio support",
-        "Description":  "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird \u0026 Meli: https://github.com/perchbirdd/OrchestrionPlugin",
-        "Changelog":  "- Quick Save: a [Save] link now appears in song echo chat messages, letting you bookmark the\n  currently playing song to a playlist with one click — no need to leave combat or remember the name.\n- Quick Save: a Save button also appears in the Player (main window and mini player) while a song\n  is playing.\n- Quick Save: songs are saved to a \"Listen Later\" playlist by default, which clears automatically\n  when you exit the game. Character switch clearing is a separate toggle, off by default.\n- Quick Save: optional area summary — when you change zone, a chat message lists every song you\n  saved during that area.\n- Quick Save: fully configurable in Settings — single or two-action mode, target playlists, button\n  labels, confirmation echoes, and clear behaviour.",
-        "Tags":  [
-                     "music",
-                     "bgm",
-                     "audio"
-                 ],
-        "CategoryTags":  [
-                             "Audio"
-                         ],
-        "InternalName":  "orchestrionaria",
-        "AssemblyVersion":  "2.3.0.0",
-        "RepoUrl":  "https://github.com/AemiliusXIV/OrchestrionPlugin",
-        "ApplicableVersion":  "any",
-        "DalamudApiLevel":  15,
-        "DownloadLinkInstall":  "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
-        "DownloadLinkTesting":  "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip"
-    },
-    {
-        "Author":  "AemiliusXIV",
-        "Name":  "Party Sorter",
-        "Punchline":  "Drag party members to reorder your party list.",
-        "Description":  "Hold Ctrl (configurable) and drag a party member onto another to reorder. Saves each group\u0027s preferred order and automatically restores it when the same members meet again — perfect for statics that want a consistent layout every pull. Supports per-group auto-apply modes, locking saved orders against accidental overwrites, and per-duty separate orders. Commands: /psorter (open settings), /psorter save (save current order to chat).",
-        "Changelog":  "Initial public release.",
-        "Tags":  [
-                     "party",
-                     "ui",
-                     "qol",
-                     "static",
-                     "sort"
-                 ],
-        "CategoryTags":  [
-                             "Utility"
-                         ],
-        "InternalName":  "PartySorter",
-        "AssemblyVersion":  "1.0.0.1",
-        "RepoUrl":  "https://github.com/AemiliusXIV/PartySorter",
-        "ApplicableVersion":  "any",
-        "DalamudApiLevel":  15,
-        "DownloadLinkInstall":  "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
-        "DownloadLinkTesting":  "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip"
-    }
+  {
+    "Author": "AemiliusXIV",
+    "Name": "Orchestrion Aria",
+    "Punchline": "BGM replacement with local audio support",
+    "Description": "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird & Meli: https://github.com/perchbirdd/OrchestrionPlugin",
+    "Changelog": "- Quick Save: a [Save] link now appears in song echo chat messages, letting you bookmark the\n  currently playing song to a playlist with one click — no need to leave combat or remember the name.\n- Quick Save: a Save button also appears in the Player (main window and mini player) while a song\n  is playing.\n- Quick Save: songs are saved to a \"Listen Later\" playlist by default, which clears automatically\n  when you exit the game. Character switch clearing is a separate toggle, off by default.\n- Quick Save: optional area summary — when you change zone, a chat message lists every song you\n  saved during that area.\n- Quick Save: optional \"Hide in cities and residential zones\" setting to reduce noise from\n  frequently-repeating ambient tracks.\n- Quick Save: fully configurable — single or two-action mode, target playlists, button labels,\n  confirmation echoes, and clear behaviour.\n- Fixed: Quick Save link no longer appears on the \"now playing\" echo when music stops.\n- Fixed: estate orchestrion track changes no longer produce a duplicate chat message when\n  \"Show now playing in chat\" is enabled.\n- Settings: sub-settings now collapse when their parent toggle is off, reducing visual clutter.\n- Settings: sections reordered — Mini Player and Quick Save appear before Localization and\n  Local Library; the Import section moves to the bottom.\n- Settings: added a \"Already done — don't show again\" button to the Import section for players\n  who have already set things up manually.",
+    "Tags": [
+      "music",
+      "bgm",
+      "audio"
+    ],
+    "CategoryTags": [
+      "Audio"
+    ],
+    "InternalName": "orchestrionaria",
+    "AssemblyVersion": "2.3.0.1",
+    "RepoUrl": "https://github.com/AemiliusXIV/OrchestrionPlugin",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip"
+  },
+  {
+    "Author": "AemiliusXIV",
+    "Name": "Party Sorter",
+    "Punchline": "Drag party members to reorder your party list.",
+    "Description": "Hold Ctrl (configurable) and drag a party member onto another to reorder. Saves each group's preferred order and automatically restores it when the same members meet again — perfect for statics that want a consistent layout every pull. Supports per-group auto-apply modes, locking saved orders against accidental overwrites, and per-duty separate orders. Commands: /psorter (open settings), /psorter save (save current order to chat).",
+    "Changelog": "Initial public release.",
+    "Tags": [
+      "party",
+      "ui",
+      "qol",
+      "static",
+      "sort"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "InternalName": "PartySorter",
+    "AssemblyVersion": "1.0.0.1",
+    "RepoUrl": "https://github.com/AemiliusXIV/PartySorter",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip"
+  }
 ]
