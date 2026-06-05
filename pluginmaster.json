@@ -4,7 +4,7 @@
     "Name": "Orchestrion Aria",
     "Punchline": "BGM replacement with local audio support",
     "Description": "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird & Meli: https://github.com/perchbirdd/OrchestrionPlugin",
-    "Changelog": "- Fixed: Deep Dungeon mode without a specific playlist now correctly\n  cycles tracks instead of staying on the first song.\n- Quick Save: a [Save] link now appears in song echo chat messages, letting you bookmark the\n  currently playing song to a playlist with one click — no need to leave combat or remember the name.\n- Quick Save: a Save button also appears in the Player (main window and mini player) while a song\n  is playing.\n- Quick Save: songs are saved to a \"Listen Later\" playlist by default, which clears automatically\n  when you exit the game. Character switch clearing is a separate toggle, off by default.\n- Quick Save: optional area summary — when you change zone, a chat message lists every song you\n  saved during that area.\n- Quick Save: optional \"Hide in cities and residential zones\" setting to reduce noise from\n  frequently-repeating ambient tracks.\n- Quick Save: fully configurable — single or two-action mode, target playlists, button labels,\n  confirmation echoes, and clear behaviour.\n- Fixed: Quick Save link no longer appears on the \"now playing\" echo when music stops.\n- Fixed: estate orchestrion track changes no longer produce a duplicate chat message when\n  \"Show now playing in chat\" is enabled.\n- Settings: sub-settings now collapse when their parent toggle is off, reducing visual clutter.\n- Settings: sections reordered — Mini Player and Quick Save appear before Localization and\n  Local Library; the Import section moves to the bottom.\n- Settings: added a \"Already done — don't show again\" button to the Import section for players\n  who have already set things up manually.",
+    "Changelog": "Local songs now appear in the History tab. Anything you played from your own\nlibrary is as easy to find again as a game track. If you'd rather keep history\nlimited to game BGM, there's a toggle for it in Local Library settings.\n\nYou can scrub local files now. Click anywhere on the player's progress bar to\njump to that point in the track. Game BGM has no position we can read, so only\nlocal audio responds to clicks.\n\nLast, an optional now-playing toast. When a song starts it flashes a short note\non screen that fades by itself and leaves nothing in chat. Off by default; turn\nit on under General settings.",
     "Tags": [
       "music",
       "bgm",
@@ -14,7 +14,7 @@
       "Audio"
     ],
     "InternalName": "orchestrionaria",
-    "AssemblyVersion": "2.3.0.2",
+    "AssemblyVersion": "2.3.0.3",
     "RepoUrl": "https://github.com/AemiliusXIV/OrchestrionPlugin",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
