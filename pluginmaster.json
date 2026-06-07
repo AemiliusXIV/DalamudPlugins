@@ -1,77 +1,77 @@
 [
-    {
-        "Author":  "AemiliusXIV",
-        "Name":  "Orchestrion Aria",
-        "Punchline":  "BGM replacement with local audio support",
-        "Description":  "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird \u0026 Meli: https://github.com/perchbirdd/OrchestrionPlugin",
-        "Changelog":  "Local songs now appear in the History tab. Anything you played from your own\nlibrary is as easy to find again as a game track. If you\u0027d rather keep history\nlimited to game BGM, there\u0027s a toggle for it in Local Library settings.\n\nYou can scrub local files now. Click anywhere on the player\u0027s progress bar to\njump to that point in the track. Game BGM has no position we can read, so only\nlocal audio responds to clicks.\n\nLast, an optional now-playing toast. When a song starts it flashes a short note\non screen that fades by itself and leaves nothing in chat. Off by default; turn\nit on under General settings.",
-        "Tags":  [
-                     "music",
-                     "bgm",
-                     "audio"
-                 ],
-        "CategoryTags":  [
-                             "Audio"
-                         ],
-        "InternalName":  "orchestrionaria",
-        "AssemblyVersion":  "2.3.0.3",
-        "RepoUrl":  "https://github.com/AemiliusXIV/OrchestrionPlugin",
-        "ApplicableVersion":  "any",
-        "DalamudApiLevel":  15,
-        "DownloadLinkInstall":  "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
-        "DownloadLinkTesting":  "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip"
-    },
-    {
-        "Author":  "AemiliusXIV",
-        "Name":  "Party Sorter",
-        "Punchline":  "Drag party members to reorder your party list.",
-        "Description":  "Hold Ctrl (configurable) and drag a party member onto another to reorder. Saves each group\u0027s preferred order and automatically restores it when the same members meet again — perfect for statics that want a consistent layout every pull. Supports per-group auto-apply modes, locking saved orders against accidental overwrites, and per-duty separate orders. Commands: /psorter (open settings), /psorter save (save current order to chat).",
-        "Changelog":  "Initial public release.",
-        "Tags":  [
-                     "party",
-                     "ui",
-                     "qol",
-                     "static",
-                     "sort"
-                 ],
-        "CategoryTags":  [
-                             "Utility"
-                         ],
-        "InternalName":  "PartySorter",
-        "AssemblyVersion":  "1.0.0.1",
-        "RepoUrl":  "https://github.com/AemiliusXIV/PartySorter",
-        "ApplicableVersion":  "any",
-        "DalamudApiLevel":  15,
-        "DownloadLinkInstall":  "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
-        "DownloadLinkTesting":  "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip"
-    },
-    {
-        "Author":  "AemiliusXIV",
-        "Name":  "ChronoLog",
-        "Punchline":  "OBS chapter markers and YouTube timestamps for every raid pull. Use /clog.",
-        "Description":  "Tracks pulls, wipes and clears in any duty. Per pull: fight name, phase, boss HP%, first death, duration.\n\nOutputs OBS chapter markers via websocket and a paste-ready YouTube description block. A direct API push to a live stream\u0027s description is planned for a later release.\n\nShort resets are filtered out automatically. /clog to open, /clog cfg for settings.",
-        "Changelog":  "Initial release.",
-        "Tags":  [
-                     "raid",
-                     "obs",
-                     "youtube",
-                     "streaming",
-                     "recording",
-                     "timestamps",
-                     "chapters"
-                 ],
-        "CategoryTags":  [
-                             "Utility"
-                         ],
-        "InternalName":  "ChronoLog",
-        "AssemblyVersion":  "0.1.0.0",
-        "RepoUrl":  "https://github.com/AemiliusXIV/ChronoLog",
-        "ApplicableVersion":  "any",
-        "DalamudApiLevel":  15,
-        "DownloadLinkInstall":  "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip",
-        "DownloadLinkTesting":  "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip"
-    }
+  {
+    "Author": "AemiliusXIV",
+    "Name": "Orchestrion Aria",
+    "Punchline": "BGM replacement with local audio support",
+    "Description": "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird & Meli: https://github.com/perchbirdd/OrchestrionPlugin",
+    "Changelog": "Local songs now appear in the History tab. Anything you played from your own\nlibrary is as easy to find again as a game track. If you'd rather keep history\nlimited to game BGM, there's a toggle for it in Local Library settings.\n\nYou can scrub local files now. Click anywhere on the player's progress bar to\njump to that point in the track. Game BGM has no position we can read, so only\nlocal audio responds to clicks.\n\nLast, an optional now-playing toast. When a song starts it flashes a short note\non screen that fades by itself and leaves nothing in chat. Off by default; turn\nit on under General settings.",
+    "Tags": [
+      "music",
+      "bgm",
+      "audio"
+    ],
+    "CategoryTags": [
+      "Audio"
+    ],
+    "InternalName": "orchestrionaria",
+    "AssemblyVersion": "2.3.0.3",
+    "RepoUrl": "https://github.com/AemiliusXIV/OrchestrionPlugin",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AemiliusXIV/OrchestrionPlugin/releases/latest/download/latest.zip"
+  },
+  {
+    "Author": "AemiliusXIV",
+    "Name": "Party Sorter",
+    "Punchline": "Drag party members to reorder your party list.",
+    "Description": "Hold Ctrl (configurable) and drag a party member onto another to reorder. Saves each group's preferred order and automatically restores it when the same members meet again — perfect for statics that want a consistent layout every pull. Supports per-group auto-apply modes, locking saved orders against accidental overwrites, and per-duty separate orders. Commands: /psorter (open settings), /psorter save (save current order to chat).",
+    "Changelog": "Initial public release.",
+    "Tags": [
+      "party",
+      "ui",
+      "qol",
+      "static",
+      "sort"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "InternalName": "PartySorter",
+    "AssemblyVersion": "1.0.0.1",
+    "RepoUrl": "https://github.com/AemiliusXIV/PartySorter",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AemiliusXIV/PartySorter/releases/latest/download/latest.zip"
+  },
+  {
+    "Author": "AemiliusXIV",
+    "Name": "ChronoLog",
+    "Punchline": "OBS chapter markers and YouTube timestamps for every raid pull. Use /clog.",
+    "Description": "Tracks pulls, wipes and clears in any duty. Per pull: fight name, phase, boss HP%, first death, duration.\n\nOutputs OBS chapter markers via websocket and a paste-ready YouTube description block. A direct API push to a live stream's description is planned for a later release.\n\nShort resets are filtered out automatically. /clog to open, /clog cfg for settings.",
+    "Changelog": "Initial release.",
+    "Tags": [
+      "raid",
+      "obs",
+      "youtube",
+      "streaming",
+      "recording",
+      "timestamps",
+      "chapters"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "InternalName": "ChronoLog",
+    "AssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/AemiliusXIV/ChronoLog",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip"
+  }
 ]
