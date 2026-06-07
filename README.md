@@ -20,6 +20,7 @@ All plugins listed below will then appear in your Plugin Installer and update au
 |--------|-------------|
 | [Party Sorter](https://github.com/AemiliusXIV/PartySorter) | Drag and drop party members and auto-apply saved configurations. |
 | [Orchestrion Aria](https://github.com/AemiliusXIV/OrchestrionPlugin) | BGM replacement with local MP3/WAV audio support. Fork of [perchbirdd/OrchestrionPlugin](https://github.com/perchbirdd/OrchestrionPlugin). |
+| [ChronoLog](https://github.com/AemiliusXIV/ChronoLog) | OBS chapter markers and YouTube timestamps for every raid pull. Use /clog. |
 
 ## Legal
 
