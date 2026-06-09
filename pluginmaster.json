@@ -73,5 +73,30 @@
     "DownloadLinkInstall": "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AemiliusXIV/ChronoLog/releases/latest/download/latest.zip"
+  },
+  {
+    "Author": "AemiliusXIV",
+    "Name": "Quiet Tips",
+    "Punchline": "Hide tooltips when you don't want them, keep them when you do.",
+    "Description": "Stops action, item, pop-up help and crossbar hint tooltips from cluttering the screen. Toggle each type independently for in-combat and out-of-combat, set a duty override (follow combat rules, always show, or always hide while in an instance), and keep an exception so tooltips come back automatically whenever an inventory, armoury or character window is open. Original game settings are restored when the plugin is disabled. Commands: /quiettips (open settings), /quiettips toggle|on|off.",
+    "Changelog": "Initial release.",
+    "Tags": [
+      "tooltip",
+      "ui",
+      "qol",
+      "combat",
+      "declutter"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "InternalName": "QuietTips",
+    "AssemblyVersion": "1.0.0.0",
+    "RepoUrl": "https://github.com/AemiliusXIV/QuietTips",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/AemiliusXIV/QuietTips/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AemiliusXIV/QuietTips/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AemiliusXIV/QuietTips/releases/latest/download/latest.zip"
   }
 ]
