@@ -52,7 +52,7 @@
     "Name": "ChronoLog",
     "Punchline": "OBS chapter markers and YouTube timestamps for every raid pull. Use /chrono.",
     "Description": "Tracks pulls, wipes and clears in any duty. Per pull: fight name, phase, boss HP%, first death, duration.\n\nOutputs OBS chapter markers via websocket and a paste-ready YouTube description block. A direct API push to a live stream's description is planned for a later release.\n\nShort resets are filtered out automatically. /chrono to open, /chrono cfg for settings.",
-    "Changelog": "Enrages now show as 'enrage' in the pull list and text export rather than 'wipe'. Detection is HP-based: boss scripted to 0 HP with a very low last real reading. Updated Square Enix disclaimer to include explicit non-affiliation language in both the README and LICENSE.",
+    "Changelog": "UX fixes: plugin reloads and updates no longer show a spurious OBS disconnection message. The 'Copy new' button now tracks state per session, so switching sessions mid-prog no longer breaks the copy cursor on other sessions. Phase timestamps toggle is locked during an active session. Template preview in settings shows a real pull when one is available. Added 'Ask before clearing a session' to Capture settings. Phase offset range extended to allow small positive values. Hotkey fallback field now has a tooltip.",
     "Tags": [
       "raid",
       "obs",
@@ -66,7 +66,7 @@
       "Utility"
     ],
     "InternalName": "ChronoLog",
-    "AssemblyVersion": "0.2.1.0",
+    "AssemblyVersion": "0.2.2.0",
     "RepoUrl": "https://github.com/AemiliusXIV/ChronoLog",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
