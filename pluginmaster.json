@@ -79,7 +79,7 @@
     "Name": "Quiet Tips",
     "Punchline": "Hide tooltips when you don't want them, keep them when you do.",
     "Description": "Stops action, item, pop-up help and crossbar hint tooltips from cluttering the screen. Toggle each type independently for in-combat and out-of-combat, set a duty override (follow combat rules, always show, or always hide while in an instance), and keep an exception so tooltips come back automatically whenever an inventory, armoury or character window is open. Original game settings are restored when the plugin is disabled. Commands: /quiettips (open settings), /quiettips toggle|on|off.",
-    "Changelog": "Menu exception no longer stays stuck when a window closes without a proper lifecycle event; tooltips hide again as expected once windows are gone. Toggle feedback is now a toast notification by default - switch back to chat in settings if you prefer. Optional server info bar icon added (off by default), click it to toggle the plugin.",
+    "Changelog": "Tooltips now hide again after closing inventory or character windows - they could get stuck showing in some cases before. When toggling the plugin on or off, you'll see a toast notification rather than a chat message by default. New option in settings: show a small icon in the server info bar that lets you toggle the plugin with a click.",
     "Tags": [
       "tooltip",
       "ui",
@@ -91,7 +91,7 @@
       "Utility"
     ],
     "InternalName": "QuietTips",
-    "AssemblyVersion": "1.0.0.1",
+    "AssemblyVersion": "1.0.1.0",
     "RepoUrl": "https://github.com/AemiliusXIV/QuietTips",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
