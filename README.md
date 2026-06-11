@@ -21,8 +21,8 @@ All plugins listed below will then appear in your Plugin Installer and update au
 | [Party Sorter](https://github.com/AemiliusXIV/PartySorter) | Drag and drop party members and auto-apply saved configurations. |
 | [Quiet Tips](https://github.com/AemiliusXIV/QuietTips) | Hide action, item, pop-up and crossbar tooltips by combat and duty state, with an inventory-window exception. |
 | [Orchestrion Aria](https://github.com/AemiliusXIV/OrchestrionPlugin) | BGM replacement with local MP3/WAV audio support. Fork of [perchbirdd/OrchestrionPlugin](https://github.com/perchbirdd/OrchestrionPlugin). |
-| [ChronoLog](https://github.com/AemiliusXIV/ChronoLog) | OBS chapter markers and YouTube timestamps for every raid pull. Use /clog. |
+| [ChronoLog](https://github.com/AemiliusXIV/ChronoLog) | OBS chapter markers and YouTube timestamps for every raid pull. |
 
 ## Legal
 
-The plugins in this repository are provided **as is**, without warranty of any kind. While every care is taken to ensure they function correctly and safely, I cannot be held liable for any consequences — including but not limited to account actions taken by Square Enix — arising from their installation or use. By using any plugin from this repository, you acknowledge that the use of third-party plugins is entirely at your own risk.
+The plugins in this repository are provided **as is**, without warranty of any kind. While every care is taken to keep them working correctly and safely, I cannot be held liable for any consequences arising from their installation or use, including but not limited to account actions taken by Square Enix. By using any plugin from this repository, you acknowledge that the use of third-party plugins is entirely at your own risk.
