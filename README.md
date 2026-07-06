@@ -22,6 +22,7 @@ All plugins listed below will then appear in your Plugin Installer and update au
 | [Quiet Tips](https://github.com/AemiliusXIV/QuietTips) | Hide action, item, pop-up and crossbar tooltips by combat and duty state, with an inventory-window exception. |
 | [Orchestrion Aria](https://github.com/AemiliusXIV/OrchestrionPlugin) | BGM replacement with local MP3/WAV audio support. Fork of [perchbirdd/OrchestrionPlugin](https://github.com/perchbirdd/OrchestrionPlugin). |
 | [ChronoLog](https://github.com/AemiliusXIV/ChronoLog) | OBS chapter markers and YouTube timestamps for every raid pull. |
+| [Clarion](https://github.com/AemiliusXIV/Clarion) | Save and apply full Party Finder recruitment presets, with optional auto-refresh to keep a listing alive. |
 
 ## Legal
 
