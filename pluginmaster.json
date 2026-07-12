@@ -4,7 +4,7 @@
     "Name": "Orchestrion Aria",
     "Punchline": "BGM replacement with local audio support",
     "Description": "Play and replace FFXIV background music. Supports local MP3/WAV files from your PC alongside all in-game tracks, with fade transitions and volume sync.\n\nOriginally by perchbird & Meli: https://github.com/perchbirdd/OrchestrionPlugin",
-    "Changelog": "Local songs now appear in the History tab. Anything you played from your own\nlibrary is as easy to find again as a game track. If you'd rather keep history\nlimited to game BGM, there's a toggle for it in Local Library settings.\n\nYou can scrub local files now. Click anywhere on the player's progress bar to\njump to that point in the track. Game BGM has no position we can read, so only\nlocal audio responds to clicks.\n\nLast, an optional now-playing toast. When a song starts it flashes a short note\non screen that fades by itself and leaves nothing in chat. Off by default; turn\nit on under General settings.",
+    "Changelog": "Fixed a crash when playing a random song from a playlist that mixes your local\ntracks with game BGM. Picking random from a mixed playlist no longer throws.\n\nThe \"delete original after importing\" option now only shows when imports are set\nto copy into the plugin's storage. If you import a file by reference instead, that\noriginal is your only copy, so the option stays hidden and cannot remove it.",
     "Tags": [
       "music",
       "bgm",
@@ -14,7 +14,7 @@
       "Audio"
     ],
     "InternalName": "orchestrionaria",
-    "AssemblyVersion": "2.3.0.3",
+    "AssemblyVersion": "2.3.0.4",
     "RepoUrl": "https://github.com/AemiliusXIV/OrchestrionPlugin",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
