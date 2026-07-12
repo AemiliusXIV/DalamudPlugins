@@ -27,7 +27,7 @@
     "Name": "Party Sorter",
     "Punchline": "Drag party members to reorder your party list.",
     "Description": "Hold Ctrl (configurable) and drag a party member onto another to reorder. Saves each group's preferred order and automatically restores it when the same members meet again — perfect for statics that want a consistent layout every pull. Supports per-group auto-apply modes, locking saved orders against accidental overwrites, and per-duty separate orders. Commands: /psorter (open settings), /psorter save (save current order to chat).",
-    "Changelog": "Initial public release.",
+    "Changelog": "Maintenance release; no player-facing changes.",
     "Tags": [
       "party",
       "ui",
@@ -39,7 +39,7 @@
       "Utility"
     ],
     "InternalName": "PartySorter",
-    "AssemblyVersion": "1.0.0.1",
+    "AssemblyVersion": "1.0.0.2",
     "RepoUrl": "https://github.com/AemiliusXIV/PartySorter",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
